@@ -1,0 +1,21 @@
+{
+  "name": "aniskytheme",
+  "displayName": "AniskyTheme",
+  "description": "Un super thème de ouf !",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "AniskyTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/AniskyTheme-color-theme.json"
+      }
+    ]
+  }
+}

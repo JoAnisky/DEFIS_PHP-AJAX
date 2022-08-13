@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Upload file</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="main.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    Consigne
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Script PHP</h5>
+                    <p class="card-text">Réaliser le script php qui va permettre l'upload du fichier sur le serveur. Vous pouvez utiliser Ajax si vous voulez. Pas de librairie. C'est votre code php. En fonction de votre script vous aurez peut-être besoin de modifier des attributs et peut être ajouter des balises html pour afficher le message que le fichier à bien été uploader. Possibilité aussi d'ajouter des fichiers php. </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-12">
+            <form action="" method="post" enctype="multipart/form-data" novalidate>
+                <div class="mb-3">
+                    <label for="userFile" class="form-label">Votre fichier</label>
+                    <input type="file" class="form-control" id="userFile" name="userFile">
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-primary" type="submit">Envoyer</button>
+                    <span id="status-message"></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
